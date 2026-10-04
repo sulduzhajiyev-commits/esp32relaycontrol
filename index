@@ -211,8 +211,8 @@
     firebase.initializeApp(firebaseConfig);
 
     // Predefined login credentials (can be replaced with your logic)
-    const allowedEmail = "abc@gmail.com";
-    const allowedPassword = "90009550";
+    const allowedEmail = "sulduz.hajiyev@gmail.com";
+    const allowedPassword = "Mamamia98765";
 
     const loginForm = document.getElementById("loginForm");
     const dashboard = document.getElementById("dashboard");
