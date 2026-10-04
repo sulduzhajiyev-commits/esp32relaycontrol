@@ -198,18 +198,16 @@
 
   <script>
     // Firebase config
-    const firebaseConfig = {
-	  apiKey: "AIzaSyBFzQJ8a1AuHJABCDvg6UJMxjmD_XPPPOg",
-	  authDomain: "esp32-relay-control-01.firebaseapp.com",
-	  databaseURL: "https://esp32-relay1-control-02-default-rtdb.europe-west1.firebasedatabase.app",
-	  projectId: "esp32-relay-control-01",
-	  storageBucket: "esp32-relay-control-02.firebasestorage.app",
-	  messagingSenderId: "1057958003190",
-	  appId: "1:1057958003190:web:d4200d0e99b5ed880507d7"
-	};
+	const firebaseConfig = {
+  		apiKey: "AIzaSyANIpTfelGJx2DrUKPxdrooR4R40DG8QqY",
+ 		authDomain: "esp32relaycontrol-da9f0.firebaseapp.com",
+  		databaseURL: "https://esp32relaycontrol-da9f0-default-rtdb.europe-west1.firebasedatabase.app",
+  		projectId: "esp32relaycontrol-da9f0",
+ 		storageBucket: "esp32relaycontrol-da9f0.firebasestorage.app",
+  		messagingSenderId: "463640746568",
+ 		appId: "1:463640746568:web:a3f17e0ce32fb92a3dd67d"
 
-    firebase.initializeApp(firebaseConfig);
-
+	const app = initializeApp(firebaseConfig);	
     // Predefined login credentials (can be replaced with your logic)
     const allowedEmail = "sulduz.hajiyev@gmail.com";
     const allowedPassword = "Mamamia98765";
